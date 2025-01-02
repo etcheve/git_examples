@@ -22,11 +22,6 @@ func (p *Person) Greet() {
 	fmt.Printf("Hi, I'm %s and I'm %d years old.\n", p.Name, p.Age)
 }
 
-// Square returns the square of an integer.
-func Square(n int) int {
-	return n * 2
-}
-
 // RandomNumbers generates a slice of n random integers.
 func RandomNumbers(n int) []int {
 	rand.Seed(time.Now().UnixNano())
@@ -72,3 +67,7 @@ func main() {
 	fmt.Printf("The average of the random numbers is %.2f.\n", avg)
 }
 
+// Square returns the square of an integer.
+func Square(n int) int {
+	return n * 2
+}
