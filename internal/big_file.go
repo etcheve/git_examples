@@ -67,7 +67,3 @@ func main() {
 	fmt.Printf("The average of the random numbers is %.2f.\n", avg)
 }
 
-// Square returns the square of an integer.
-func Square(n int) int {
-	return n * 2
-}
