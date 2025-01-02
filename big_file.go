@@ -24,7 +24,7 @@ func (p *Person) Greet() {
 
 // Square returns the square of an integer.
 func Square(n int) int {
-return n * 2
+	return n * 2
 }
 
 // RandomNumbers generates a slice of n random integers.
